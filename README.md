@@ -44,13 +44,13 @@ Accuracy on training set: 0.998
 
 ### Gradient Boosting
 Accuracy on training set: 0.996
-Accuracy on test set: 0.975
+<br/>Accuracy on test set: 0.975
 
 ### Support Vector Machines
 Accuracy on training set: 0.985
-Accuracy on test set: 0.984
+<br/>Accuracy on test set: 0.984
 
 ### Multilayer Perceptron
 Accuracy on training set: 0.995
-Accuracy on test set: 0.981
+<br/>Accuracy on test set: 0.981
 
