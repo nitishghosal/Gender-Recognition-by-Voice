@@ -1,12 +1,15 @@
 # Gender-Recognition-by-Voice
 Gender Recognition by Voice and Speech Analysis by Implementing Classification Algorithms in Python
 
+## Objective
+To predict gender with corresponding voice and speech features.
+
 ## Dataset
 This database was created to identify a voice as male or female, based upon acoustic properties of the voice and speech. The dataset consists of 3,168 recorded voice samples, collected from male and female speakers. The voice samples are pre-processed by acoustic analysis in R using the seewave and tuneR packages, with an analyzed frequency range of 0hz-280hz (human vocal range).
 
 ## Variable Description
 The following acoustic properties of each voice are measured and included within the CSV:
-
+* label(Target Variable): male or female
 * meanfreq: mean frequency (in kHz)
 * sd: standard deviation of frequency
 * median: median frequency (in kHz)
@@ -28,4 +31,26 @@ The following acoustic properties of each voice are measured and included within
 * maxdom: maximum of dominant frequency measured across acoustic signal
 * dfrange: range of dominant frequency measured across acoustic signal
 * modindx: modulation index. Calculated as the accumulated absolute difference between adjacent measurements of fundamental frequencies divided by the frequency range
-* label: male or female
+
+## Results
+
+### Decision Trees
+Accuracy on training set: 1.000
+Accuracy on test set: 0.961
+
+### Random Forests
+Accuracy on training set: 0.998
+Accuracy on test set: 0.976
+
+### Gradient Boosting
+Accuracy on training set: 0.996
+Accuracy on test set: 0.975
+
+### Support Vector Machines
+Accuracy on training set: 0.985
+Accuracy on test set: 0.984
+
+### Multilayer Perceptron
+Accuracy on training set: 0.995
+Accuracy on test set: 0.981
+
