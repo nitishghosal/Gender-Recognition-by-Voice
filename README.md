@@ -36,7 +36,7 @@ The following acoustic properties of each voice are measured and included within
 
 ### Decision Trees
 Accuracy on training set: 1.000
-Accuracy on test set: 0.961
+/t Accuracy on test set: 0.961
 
 ### Random Forests
 Accuracy on training set: 0.998
